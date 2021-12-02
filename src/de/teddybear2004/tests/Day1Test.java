@@ -16,5 +16,6 @@ class Day1Test {
 
     @Test
     void runRiddle2(){
+        Assertions.assertEquals(5, Day1.runRiddle2(new File("./src/de/teddybear2004/tests/Day1/2.test")));
     }
 }

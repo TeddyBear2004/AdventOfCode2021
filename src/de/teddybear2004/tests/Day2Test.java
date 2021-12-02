@@ -15,6 +15,6 @@ class Day2Test {
 
     @Test
     void runRiddle2(){
-        Assertions.assertEquals(0, Day2.runRiddle2(new File("./src/de/teddybear2004/tests/Day2/2.test")));
+        Assertions.assertEquals(900, Day2.runRiddle2(new File("./src/de/teddybear2004/tests/Day2/1.test")));
     }
 }
